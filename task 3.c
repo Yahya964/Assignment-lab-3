@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    float salary;
+    int salary;
     float taxrate;
     float taxamount;
     float netSalary;
     printf("Enter your Salary amount:");
-    scanf("%f", &salary);
+    scanf("%d", &salary);
     printf("Enter taxrate between 0 to 100:");
     scanf("%f", &taxrate);
     if(taxrate<0 || taxrate>100)
