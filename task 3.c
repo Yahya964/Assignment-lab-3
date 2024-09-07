@@ -17,7 +17,7 @@ int main()
     taxamount=(taxrate/100)*salary;
     netSalary=salary-taxamount;
     printf("Amount of tax to be paid: %2f\n", taxamount);
-    printf("Net salary with tax: %2f\n", netSalary);
+    printf("Net salary after tax amount given: %2f\n", netSalary);
     return 0;
 }
     
