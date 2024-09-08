@@ -5,7 +5,7 @@ int main()
 	float Y1;
 	float Y2;
 	float X2;
-	float Slope Value; 
+	float Slope_Value; 
 	
 	printf(" enter the first x coordinate ");
 	scanf("%f",&X1);
@@ -15,8 +15,8 @@ int main()
 	scanf("%f",&Y2);
 	printf(" enter the second x co0rdinate ");
 	scanf("%f",&X2);
-	Slope=((Y2-Y1)/(X2-X1));
-	printf(" slope is %.3f ",Slope);
+	Slope_Value=((Y2-Y1)/(X2-X1));
+	printf(" slope is %.3f ",Slope_Value);
 	return 0;
 	
 }
